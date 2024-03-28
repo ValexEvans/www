@@ -7,7 +7,7 @@
     $Email = "";
     $Role = "";
 
-    $conn = new mysqli("localhost", "Beast", "WeLoveCOP4331", "DB01");
+    $conn = new mysqli("localhost", "root", "Val21212@S1n2o3w4w", "DB01");
     if( $conn->connect_error )
     {
         returnWithError( $conn->connect_error );
