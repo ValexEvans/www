@@ -1,0 +1,137 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(246, 219, 185);
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: tan;
+    padding: 10px 0;
+}
+
+.container,
+.title {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    padding-top: 20px;
+}
+
+.title h1 {
+    color: rgb(143, 117, 84);
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: white;
+    color: tan;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+/* Landing Page Styles */
+.landing-page {
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.info-title-box {
+    max-width: 1200px;
+    background-color: #093c72;
+    padding: 80px;
+
+}
+
+.info-top-row {
+    display: flex;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+.info-bottom-row {
+    display: flex;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.column {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.contact-list-box {
+    display: flex;
+}
+
+.info-contact-box {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #06255f80;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    /* 100% of the viewport height */
+}
+
+.scrolling-window {
+    height: 460px;
+    /* Set the desired height for your scrolling window */
+    overflow: auto;
+    /* Optional: Add a border for visual clarity */
+}
+
+.row {
+    flex: 1;
+    box-sizing: border-box;
+    margin: 8px;
+    background-color: #fff;
+    border-radius: 5px;
+}
