@@ -1,5 +1,5 @@
 
-#COMMENT: login mySQL with 'mysql -u TheBeast -p' Password = Val21212@S1n2o3w4w
+#COMMENT: login mySQL with 'mysql -u root -p' Password = Val21212@S1n2o3w4w
 
 # EDIT: I should create database 'leinecke_COP4331' first
 CREATE DATABASE leinecke_COP4331;
