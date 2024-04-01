@@ -1,8 +1,16 @@
-# Create Users Table
 
+#COMMENT: login mySQL with 'mysql -u TheBeast -p' Password = Val21212@S1n2o3w4w
+
+# EDIT: I should create database 'leinecke_COP4331' first
+CREATE DATABASE leinecke_COP4331;
+
+# Create Users Table
 CREATE TABLE `leinecke_COP4331`.`Users` ( `ID` INT NOT NULL AUTO_INCREMENT , `DateCreated` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP , `DateLastLoggedIn` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP , `FirstName` VARCHAR(50) NOT NULL DEFAULT '' , `LastName` VARCHAR(50) NOT NULL DEFAULT '' , `Login` VARCHAR(50) NOT NULL DEFAULT '' , `Password` VARCHAR(50) NOT NULL DEFAULT '' , PRIMARY KEY (`ID`)) ENGINE = InnoDB;
 
 CREATE TABLE `leinecke_COP4331`.`Colors` ( `ID` INT NOT NULL AUTO_INCREMENT , `Name` VARCHAR(50) NOT NULL DEFAULT '' , `UserID` INT NOT NULL DEFAULT '0' , PRIMARY KEY (`ID`)) ENGINE = InnoDB;
+
+# EDIT: I should use 'leinecke_COP4331' database first
+USE leinecke_COP4331;
 
 insert into Users (FirstName,LastName,Login,Password) VALUES ('Rick','Leinecker','RickL','COP4331');
 insert into Users (FirstName,LastName,Login,Password) VALUES ('Sam','Hill','SamH','Test');
