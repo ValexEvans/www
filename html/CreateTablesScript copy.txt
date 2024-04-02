@@ -16,3 +16,15 @@ insert into Users (firstName,lastName,Login,Password) VALUES ('Rick','Leinecker'
 insert into Users (firstName,lastName,Login,Password) VALUES ('Sam','Hill','SamH','0cbc6611f5540bd0809a388dc95a615b');
 
 
+
+
+
+#COMMENT: login mySQL with 'mysql -u root -p' Password = Val21212@S1n2o3w4w
+
+# EDIT: I should create database 'leinecke_COP4331' first
+CREATE DATABASE leinecke_COP4331;
+
+
+
+# EDIT: I should use 'leinecke_COP4331' database first
+USE leinecke_COP4331;

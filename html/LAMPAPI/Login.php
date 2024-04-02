@@ -3,7 +3,7 @@
 
 	$inData = getRequestInfo();
 	
-	$ID = 0;
+	$id = 0;
 	$firstName = "";
 	$lastName = "";
 
@@ -45,13 +45,13 @@
 	
 	function returnWithError( $err )
 	{
-		$retValue = '{"ID":0,"firstName":"","lastName":"","error":"' . $err . '"}';
+		$retValue = '{"id":0,"firstName":"","lastName":"","error":"' . $err . '"}';
 		sendResultInfoAsJson( $retValue );
 	}
 	
-	function returnWithInfo( $firstName, $lastName, $ID )
+	function returnWithInfo( $firstName, $lastName, $id )
 	{
-		$retValue = '{"ID":' . $ID . ',"firstName":"' . $firstName . '","lastName":"' . $lastName . '","error":""}';
+		$retValue = '{"id":' . $id . ',"firstName":"' . $firstName . '","lastName":"' . $lastName . '","error":""}';
 		sendResultInfoAsJson( $retValue );
 	}
 	
